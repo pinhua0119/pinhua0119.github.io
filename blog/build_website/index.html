@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>Pin&#39;s Note</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Github &#43; Hugo 的架站流程">
+  <meta name="author" content="PinHua">
+    
+  
+  <meta name="theme-name" content="liva-hugo" />
+  
+  <meta name="generator" content="Hugo 0.110.0">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://pinhua0119.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://pinhua0119.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://pinhua0119.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://pinhua0119.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://pinhua0119.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://pinhua0119.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://pinhua0119.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-259132804-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+       
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://pinhua0119.github.io"><img class="img-fluid"
+          src="https://pinhua0119.github.io/images/pin_note.png" alt="Pin&#39;s Note"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/pinhua0119"><i class="ti-github"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://pinhua0119.github.io"><img class="img-fluid"
+            src="https://pinhua0119.github.io/images/pin_note.png" alt="Pin&#39;s Note"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://pinhua0119.github.io/">Home</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://pinhua0119.github.io/about">About</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://pinhua0119.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">                     
+        
+        <a href="/categories/programming-language"
+          class="text-primary">Programming language</a>
+        
+        <h2>【課程筆記】 Github 免費架站術 ! 輕鬆打造個人品牌</h2>
+        <div class="mb-3 post-meta">
+          <span>By PinHua</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>04 March 2023</span>
+          
+        </div>
+        
+        <img src="https://pinhua0119.github.io/images/post/build_website.jpg" class="img-fluid w-100 mb-4" alt="【課程筆記】 Github 免費架站術 ! 輕鬆打造個人品牌">
+        
+        <div class="content mb-5">
+          <h2 id="壹-網站架設流程圖">壹、 網站架設流程圖</h2>
+<p><img src="/images/gallery/flow_chart.jpg" alt=""></p>
+<h2 id="貳-課程筆記">貳、 課程筆記</h2>
+<h3 id="一-markdown-語法">一、 Markdown 語法</h3>
+<h4 id="1-內文">1. 內文</h4>
+<h5 id="一-直接輸入即可">(一) 直接輸入即可。</h5>
+<h5 id="二-網頁文字換行時程式碼需空一行">(二) 網頁文字換行時，程式碼需空一行。</h5>
+<h6 id="ex">Ex.</h6>
+<p>Hello World</p>
+<p>我是阿柴</p>
+<h4 id="2-標題">2. 標題</h4>
+<h5 id="一-文字前方加上--">(一) 文字前方加上 # 。</h5>
+<h5 id="二-標題分為一到六級依照數量表示級數越小字體越小">(二) 標題分為一到六級，依照#數量表示，級數越小字體越小。</h5>
+<h6 id="ex-1">Ex.</h6>
+<h1 id="-------------一級標題">(#)             一級標題</h1>
+<h2 id="-----------二級標題">(##)           二級標題</h2>
+<h3 id="---------三級標題">(###)         三級標題</h3>
+<h4 id="-------四級標題">(####)       四級標題</h4>
+<h5 id="-----五級標題">(#####)     五級標題</h5>
+<h6 id="---六級標題">(######)   六級標題</h6>
+<h4 id="3-粗體">3. 粗體</h4>
+<h5 id="一-在需要粗體的內文前後方各加上--">(一) 在需要粗體的內文前後方各加上 ** 。</h5>
+<h6 id="ex-2">Ex.</h6>
+<p>我是<strong>阿柴</strong>，我喜歡學習。</p>
+<h4 id="4-斜體">4. 斜體</h4>
+<h5 id="一-在需要斜體的內文前後方各加上--">(一) 在需要斜體的內文前後方各加上 * 。</h5>
+<h6 id="ex-3">Ex.</h6>
+<p>我是阿柴，我喜歡<em>學習</em>。</p>
+<h4 id="5-有序序列">5. 有序序列</h4>
+<h5 id="一-在需要有序序列的內文前方加上數字和小數點並空一格即可ex-1-2-">(一) 在需要有序序列的內文前方加上數字和小數點並空一格即可(Ex. 1. ,2. )。</h5>
+<h5 id="二-在有序序列中即使前方數字相同markdown也會計算回正確的數字順序">(二) 在有序序列中，即使前方數字相同，Markdown也會計算回正確的數字順序。</h5>
+<h5 id="三-內縮一個有序序列需要在前方打上四個空白鍵若需要再內縮則再打上四個空白鍵以此類推">(三) 內縮一個有序序列，需要在前方打上四個空白鍵，若需要再內縮，則再打上四個空白鍵，以此類推。</h5>
+<h6 id="ex1">Ex1.</h6>
+<ol>
+<li>Hello World
+<ol>
+<li>What is your name ?
+<ol>
+<li>How are you ?</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>我是阿柴 (在程式碼中前方數字輸入為2)</li>
+</ol>
+<h6 id="ex2">Ex2.</h6>
+<ol>
+<li>
+<p>Hello World</p>
+</li>
+<li>
+<p>我是阿柴 (在程式碼中前方數字輸入為1)</p>
+</li>
+</ol>
+<h4 id="6-無序序列">6. 無序序列</h4>
+<h5 id="一-在需要無序序列的內文前方加上--並空一格即可">(一) 在需要無序序列的內文前方加上 * 並空一格即可。</h5>
+<h5 id="二-內縮一個無序序列需要在前方打上四個空白鍵若需要再內縮則再打上四個空白鍵以此類推">(二) 內縮一個無序序列，需要在前方打上四個空白鍵，若需要再內縮，則再打上四個空白鍵，以此類推。</h5>
+<h6 id="ex-4">Ex.</h6>
+<ul>
+<li>Hello World
+<ul>
+<li>what is your name ?</li>
+</ul>
+</li>
+<li>我是阿柴</li>
+</ul>
+<h4 id="7-引用">7. 引用</h4>
+<h5 id="一-在需要引用的內文前方加上--並空一格即可">(一) 在需要引用的內文前方加上 &gt; 並空一格即可。</h5>
+<h6 id="ex-5">Ex.</h6>
+<blockquote>
+<p>Hello World</p>
+</blockquote>
+<h4 id="8-超連結">8. 超連結</h4>
+<h5 id="一-外部連結--想要呈現的文字-超連結">(一) 外部連結 : [想要呈現的文字] (超連結)</h5>
+<h5 id="二-內部連結--想要呈現的文字-blog檔案名稱無須副檔名">(二) 內部連結 : [想要呈現的文字] (/blog/檔案名稱無須副檔名)</h5>
+<h6 id="ex-6">Ex.</h6>
+<p><a href="https://github.com/pinhua0119"> pinhua0119 Github</a></p>
+<p><a href="/blog/build_website">【課程筆記】 Github 免費架站術 ! 輕鬆打造個人品牌</a></p>
+<h4 id="9-圖片">9. 圖片</h4>
+<h5 id="一-外部連結----圖片連結">(一) 外部連結 : ! [] (圖片連結)</h5>
+<h5 id="二-內部連結----imagesgallery檔案名稱含副檔名">(二) 內部連結 : ! [] (/images/gallery/檔案名稱含副檔名)</h5>
+<h6 id="ex-7">Ex.</h6>
+<p><img src="https://www.rover.com/blog/wp-content/uploads/2019/11/dreamstime_s_146662660.jpg" alt=""></p>
+<p><img src="/images/gallery/sakura.jpg" alt=""></p>
+<h4 id="10-單行程式碼">10. 單行程式碼</h4>
+<h5 id="一-內文-小引號程式碼小引號">(一) 內文 小引號+程式碼+小引號</h5>
+<h6 id="ex-8">Ex.</h6>
+<p>我是阿柴，我喜歡學習。 <code>print(&quot;Hello World&quot;)</code></p>
+<h4 id="11-多行程式碼">11. 多行程式碼</h4>
+<h5 id="一-多行程式碼無法打在內文中-三個小引號可輸入使用的程式語言-需換行-程式碼-需換行-三個小引號">(一) 多行程式碼無法打在內文中 [三個小引號(可輸入使用的程式語言)] +需換行+ [程式碼] +需換行+ [三個小引號]</h5>
+<h6 id="ex-9">Ex.</h6>
+<div class="highlight"><pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#48b685">&#34;Hello World&#34;</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#48b685">&#34;Hello World&#34;</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#48b685">&#34;Hello World&#34;</span>)
+</span></span></code></pre></div><h4 id="12-表格">12. 表格</h4>
+<h5 id="一-程式碼中第一列為類別第二列虛線用於隔開類別與內容第三列含以後為內容">(一) 程式碼中第一列為類別，第二列虛線用於隔開類別與內容，第三列(含)以後為內容。</h5>
+<h6 id="ex-10">Ex.</h6>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align:center">Gender</th>
+<th style="text-align:right">Age</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Eric</td>
+<td style="text-align:center">male</td>
+<td style="text-align:right">25</td>
+</tr>
+<tr>
+<td>Rex</td>
+<td style="text-align:center">male</td>
+<td style="text-align:right">23</td>
+</tr>
+<tr>
+<td>Emily</td>
+<td style="text-align:center">female</td>
+<td style="text-align:right">22</td>
+</tr>
+</tbody>
+</table>
+<h4 id="13-插入youtube影片">13. 插入YouTube影片</h4>
+<h5 id="一--youtube-影片序號-">(一) {{&lt; youtube 影片序號 &gt;}}</h5>
+<h6 id="ex-11">Ex.</h6>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/w7Ft2ymGmfc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h4 id="14-插入tweet貼文">14. 插入Tweet貼文</h4>
+<h5 id="一--tweet-user使用者名稱-id貼文序號-">(一) {{&lt; tweet user=&ldquo;使用者名稱&rdquo; id=&ldquo;貼文序號&rdquo; &gt;}}</h5>
+<h6 id="ex-12">Ex.</h6>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today we’re announcing free private repositories with unlimited collaborators for teams with GitHub Free, and reducing the price of our paid Team plan to $4 per user/month. All of the core GitHub features are now free for everyone. <br><br>Learn more: <a href="https://t.co/fQ3r2ABtTR">https://t.co/fQ3r2ABtTR</a> <a href="https://t.co/HHOyG5ypgU">pic.twitter.com/HHOyG5ypgU</a></p>&mdash; GitHub (@github) <a href="https://twitter.com/github/status/1250092060339773441?ref_src=twsrc%5Etfw">April 14, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h3 id="二-html-語法">二、 HTML 語法</h3>
+<h4 id="1-divaimg">1. <code>&lt;div&gt;</code>、<code>&lt;a&gt;</code>、<code>&lt;img&gt;</code></h4>
+<h5 id="一-div-通常用於包裹和分組-html-元素方便對它們進行樣式設定和操作">(一) <code>&lt;div&gt;</code> 通常用於包裹和分組 HTML 元素，方便對它們進行樣式設定和操作。</h5>
+<h6 id="ex-13">Ex.</h6>
+<div class="highlight"><pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-HTML" data-lang="HTML"><span style="display:flex;"><span>&lt;<span style="color:#5bc4bf">div</span>&gt;     <span style="color:#776e71">&lt;!-- &lt;div&gt; 標籤用來包裹一個標題和一段文字，將它們視為一個區塊 --&gt;</span>
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#5bc4bf">h1</span>&gt;這是一個標題&lt;/<span style="color:#5bc4bf">h1</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#5bc4bf">p</span>&gt;這是一段文字。&lt;/<span style="color:#5bc4bf">p</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#5bc4bf">div</span>&gt;
+</span></span></code></pre></div><h5 id="二-a-用於創建鏈接到其他網頁或文件">(二) <code>&lt;a&gt;</code> 用於創建鏈接到其他網頁或文件。</h5>
+<h6 id="ex-14">Ex.</h6>
+<div class="highlight"><pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-HTML" data-lang="HTML"><span style="display:flex;"><span>&lt;<span style="color:#5bc4bf">a</span> <span style="color:#06b6ef">href</span><span style="color:#5bc4bf">=</span><span style="color:#48b685">&#34;https://www.google.com&#34;</span>&gt;Google&lt;/<span style="color:#5bc4bf">a</span>&gt;     <span style="color:#776e71">&lt;!-- &lt;a&gt; 標籤用來創建一個指向 Google 網站的鏈接，顯示的文字是 &#34;Google&#34; --&gt;</span>
+</span></span></code></pre></div><h5 id="三-img-用於向網頁添加圖像">(三) <code>&lt;img&gt;</code> 用於向網頁添加圖像。</h5>
+<div class="highlight"><pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-HTML" data-lang="HTML"><span style="display:flex;"><span>&lt;<span style="color:#5bc4bf">img</span> <span style="color:#06b6ef">src</span><span style="color:#5bc4bf">=</span><span style="color:#48b685">&#34;https://example.com/image.jpg&#34;</span> <span style="color:#06b6ef">alt</span><span style="color:#5bc4bf">=</span><span style="color:#48b685">&#34;一張圖像&#34;</span>&gt;     <span style="color:#776e71">&lt;!-- &lt;img&gt; 標籤用來添加一個圖像到網頁中，使用 src 屬性指定圖像的 URL，使用 alt 屬性提供圖像的替代文字 --&gt;</span>
+</span></span></code></pre></div><h4 id="2-div-idcarddiv-和-div-classcarddiv-的差異">2. <code>&lt;div id=&quot;card&quot;&gt;&lt;/div&gt;</code> 和 <code>&lt;div class=&quot;card&quot;&gt;&lt;/div&gt;</code> 的差異。</h4>
+<h5 id="一-id-屬性值必須是唯一的也就是說頁面中不能有兩個元素使用相同的-id-屬性值">(一) <code>id</code> 屬性值必須是唯一的，也就是說，頁面中不能有兩個元素使用相同的 <code>id</code> 屬性值。</h5>
+<h5 id="二-class-屬性用在-html-中元素指定一個或多個用空格分隔的類名一個元素可以有多個類名">(二) <code>class</code> 屬性用在 HTML 中元素指定一個或多個用空格分隔的類名，一個元素可以有多個類名。</h5>
+<h4 id="3-bootstrap-grid-功能">3. Bootstrap Grid 功能。</h4>
+<h5 id="一-一個網格系統它提供了一種方便的方式來創建響應式網格佈局可以輕鬆地實現不同大小螢幕的網頁設計">(一) 一個網格系統，它提供了一種方便的方式來創建響應式網格佈局，可以輕鬆地實現不同大小螢幕的網頁設計。</h5>
+<h6 id="ex-15">Ex.</h6>
+<div class="highlight"><pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-HTML" data-lang="HTML"><span style="display:flex;"><span> &lt;<span style="color:#5bc4bf">div</span> <span style="color:#06b6ef">class</span><span style="color:#5bc4bf">=</span><span style="color:#48b685">&#34;col-sm-6 col-md-3&#34;</span>&gt;     <span style="color:#776e71">&lt;!-- 此例子中每列在小型螢幕上佔據 6 個列寬，在中型螢幕上佔據 3 個列寬。 --&gt;</span>
+</span></span></code></pre></div><h3 id="三-css-語法">三、 CSS 語法</h3>
+<h4 id="1-card-和-card-的差異">1. <code>.card{}</code> 和 <code>#.card{}</code> 的差異。</h4>
+<h5 id="一-card--選取所有-classcard-的-html-元素">(一) <code>.card{}</code> ： 選取所有 <code>class=&quot;card&quot;</code> 的 HTML 元素。</h5>
+<h5 id="二-card-選取使用了-idcard-的-html-元素">(二) <code>#.card{}</code> ：選取使用了 <code>id=&quot;card&quot;</code> 的 HTML 元素。</h5>
+<h6 id="ex在下面的例子中card-會選取兩個-div-元素並為其設置背景顏色和-padding-屬性而-card-僅選取帶有-idcard-的元素並為其設置不同的背景顏色和-padding-屬性">Ex.在下面的例子中，<code>.card{}</code> 會選取兩個 <code>&lt;div&gt;</code> 元素，並為其設置背景顏色和 padding 屬性。而 <code>#card{}</code> 僅選取帶有 <code>id=&quot;card&quot;</code> 的元素，並為其設置不同的背景顏色和 padding 屬性。</h6>
+<div class="highlight"><pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-HTML" data-lang="HTML"><span style="display:flex;"><span> &lt;<span style="color:#5bc4bf">div</span> <span style="color:#06b6ef">class</span><span style="color:#5bc4bf">=</span><span style="color:#48b685">&#34;card&#34;</span>&gt;這是一個使用 class=&#34;card&#34; 的元素&lt;/<span style="color:#5bc4bf">div</span>&gt;
+</span></span><span style="display:flex;"><span> &lt;<span style="color:#5bc4bf">div</span> <span style="color:#06b6ef">id</span><span style="color:#5bc4bf">=</span><span style="color:#48b685">&#34;card&#34;</span>&gt;這是一個使用 id=&#34;card&#34; 的元素&lt;/<span style="color:#5bc4bf">div</span>&gt;
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-CSS" data-lang="CSS"><span style="display:flex;"><span> .<span style="color:#fec418">card</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#815ba4">background-color</span>: <span style="color:#f99b15">#F7CAC9</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#815ba4">padding</span>: <span style="color:#f99b15">20</span><span style="color:#fec418">px</span>;
+</span></span><span style="display:flex;"><span> }
+</span></span><span style="display:flex;"><span> #<span style="color:#fec418">card</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#815ba4">background-color</span>: <span style="color:#f99b15">#A6E7FF</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#815ba4">padding</span>: <span style="color:#f99b15">20</span><span style="color:#fec418">px</span>;
+</span></span><span style="display:flex;"><span> }
+</span></span></code></pre></div><h4 id="2-card-card-title-代表的是甚麼意思-">2. <code>.card .card-title{}</code> 代表的是甚麼意思 ?</h4>
+<h5 id="一-表示一個層級關係card-card-title-表示-card-title-是-card-的子元素並在-card-的範圍內適用樣式">(一) 表示一個層級關係，<code>.card .card-title</code> 表示 <code>.card-title</code> 是 <code>.card</code> 的子元素，並在 <code>.card</code> 的範圍內適用樣式。</h5>
+
+        </div>
+
+                                         
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "pinhua0119" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>          
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="text-capitalize">                             
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://pinhua0119.github.io"><img src="https://pinhua0119.github.io/images/pin_note.png" alt="Pin&#39;s Note"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Taiwan</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:pinhual0119@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>pinhual0119@gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/pinhua0119">github</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/programming-language/">Programming language</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://pinhua0119.github.io/about/">About</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://pinhua0119.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://pinhua0119.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://pinhua0119.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://pinhua0119.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://pinhua0119.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://pinhua0119.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://pinhua0119.github.io/plugins/search/mark.js"></script>
+
+<script src="https://pinhua0119.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://pinhua0119.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>
