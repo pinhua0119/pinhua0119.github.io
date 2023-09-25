@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML on Pin&#39;s Note</title>
+    <link>https://pinhua0119.github.io/tags/html/</link>
+    <description>Recent content in HTML on Pin&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 13 Mar 2023 04:00:00 +0800</lastBuildDate><atom:link href="https://pinhua0119.github.io/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【課程筆記】 Github 免費架站術 ! 輕鬆打造個人品牌</title>
+      <link>https://pinhua0119.github.io/blog/build_website/</link>
+      <pubDate>Mon, 13 Mar 2023 04:00:00 +0800</pubDate>
+      
+      <guid>https://pinhua0119.github.io/blog/build_website/</guid>
+      <description>壹、 學習動機 隨著年紀增長，學習的範疇也與之增廣。如何記錄所學並展示成果，是成為學習本課程的動機。
+而選擇 Github 放置程式碼作品，並透過架設個人網站的方式介紹各項專題，就成為了達成此想法的首要選擇。
+身為一個工程師，當然要用工程師的方式來展示自己啦 !!!
+貳、 網站架設流程圖 叁、 作品成果 李彬華 Github 帳號 : https://github.</description>
+    </item>
+    
+  </channel>
+</rss>
